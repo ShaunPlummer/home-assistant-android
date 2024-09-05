@@ -1016,6 +1016,7 @@
     <string name="widget_media_show_seek">Show seek buttons</string>
     <string name="widget_media_show_skip">Show skip buttons</string>
     <string name="widget_media_show_source">Show source label</string>
+    <string name="widget_todo_descriptions">ToDo List Widget</string>
     <string name="widget_separator_input_hint">No separator</string>
     <string name="widget_separator_label">State and attribute separator:</string>
     <string name="widget_spinner_icon">Icon:</string>

@@ -180,6 +180,17 @@
                 android:resource="@xml/template_widget_info" />
         </receiver>
 
+        <receiver android:name=".widgets.todo.TodoListWidgetReceiver" android:label="@string/widget_todo_descriptions"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="io.homeassistant.companion.android.widgets.StaticWidget.RECEIVE_DATA" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/todo_widget_info" />
+        </receiver>
+
         <activity android:name=".widgets.button.ButtonWidgetConfigureActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true">
